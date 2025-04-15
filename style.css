@@ -1,0 +1,162 @@
+html{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color:#fff;
+}
+/* header/ main */
+.hero{
+    background:linear-gradient(#2930ff, #e613e6);
+    /* color:#000;
+    background: url(icons/hero-bg-desktop.jpg); */
+    margin-top: 75px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:60dvh;
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Categories or cat */
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    border:1px solid black;
+    border-radius: 10px;
+    padding:20px 50px;
+    margin:15px 30px;
+}
+.top{
+    display:flex;
+    align-items: center;
+    padding-bottom: 13px;
+    img{
+        width:3rem;
+        height:auto;
+        margin-right: 10px;
+        border-radius: 50%;
+        border:1.5px solid black;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color:black;
+    }
+}
+.down{
+    color:#8A8A8A;
+}
+
+
+
+/* MY WORKS */
+.row-b img{
+    width:100%;
+    height:auto;
+    padding:5px;
+    margin-top:20px;
+    border:0.5px solid gray;
+}
+
+
+    /* CONTACT ME */
+.hero{
+    padding:0 80px;
+    text-align:center;
+}
+
+.info{
+    color:black;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    align-items: center;
+    margin-top:50px;
+}
+
+.detail p{
+    margin:0;
+}
+.detail h3{
+    background: #9295f5;
+    color:#fff;
+    padding:5px 25px;
+    border-radius:10px;
+}
+
+.detail{
+    margin-bottom:15px;
+}
+
+.size{
+    font-size: 10px;
+    padding:20px 25px;
+    display: flex;
+    height:50px;
+    align-items: center;
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+}
+
+/* TESTIMOPNIALS */
+.testimonials{
+    color:black;
+    margin-top: 50px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h3{
+        padding:0 50px;
+        font-style: bold;
+        text-decoration: underline;
+    }
+
+    p{
+
+        padding: 0 50px;
+    }
+    img{
+        width: 100%;
+        border-radius: 50%;
+        border: 10px solid black;
+        margin:40px 0;
+    }
+}
+
+.person{
+    margin-bottom:30px;
+    padding:0 10px;
+}
+
+
+/* MEDIA QUERIES FOR VARIUS SCREENS */
+@media(min-width:1080){
+    body{
+        background: black;
+    }
+}
